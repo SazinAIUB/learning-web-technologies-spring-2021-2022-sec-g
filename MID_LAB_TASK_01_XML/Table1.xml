@@ -1,0 +1,28 @@
+<Mobile>
+	<Header>
+		<id>Id</id>
+		<name>Name</name>
+		<unitPrice>Unit Price</unitPrice>
+		<stock>Stock</stock>
+		<status>Status</status>
+	</Header>
+	<frstCompany id="11">
+		<name> Samsung </name>
+		<unitPrice> 35000 </unitPrice>
+		<stock> 50 </stock>
+		<status> 1 </status>
+	</frstCompany>
+	<secondCompany id="20">
+		<name> HTC </name>
+		<unitPrice> 65300 </unitPrice>
+		<stock> 35 </stock>
+		<status> 0 </status>
+	</secondCompany>
+	<thirddCompany id="20">
+		<name> HTC </name>
+		<unitPrice> 65300 </unitPrice>
+		<stock> 35 </stock>
+		<status> 0 </status>
+	</thirddCompany>
+
+</Mobile>	
