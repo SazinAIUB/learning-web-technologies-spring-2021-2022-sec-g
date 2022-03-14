@@ -1,13 +1,5 @@
 <?php
 
-     if (isset ($_REQUEST['submit'])){
-
-    if ($_REQUEST['Username']==null){
-        echo "invalid Username";
-    }else{
-        echo "ok";
-    }
- }
 
 ?>
 
