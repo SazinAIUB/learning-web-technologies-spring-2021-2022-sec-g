@@ -8,16 +8,15 @@ if(isset($_POST['login'])){
     $password = $_POST['password'];
     if ($uname == $e_uname and $password == $e_password)
     {
-        session_start();
-        $_SESSION['uname'] = $uname;
-        header ('location: dashboard.php');
         $remember = $_POST['remember'];
         if (isset(_POST['remember'])) 
         {
             setcookie('uname',$uname, time()+36000);
             setcookie('password',$password, time()+36000);
         }
-;
+            session_start();
+            $_SESSION['uname'] = $uname;
+            header ('location: dashboard.php');
     }
     else 
     {
