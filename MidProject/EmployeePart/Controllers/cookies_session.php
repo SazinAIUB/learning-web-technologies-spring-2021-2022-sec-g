@@ -1,12 +1,12 @@
 <?php
 include 'login.php';
-/*$e_uname = "employee";
-$e_password = "employee";*/
+$e_uname = "employee";
+$e_password = "employee";
 
 if(isset($_POST['login'])){
     $uname = $_POST[' uname '];
     $password = $_POST['password'];
-    if ($uname == $uname and $password == $password)
+    if ($uname == $e_uname and $password == $e_password)
     {
         session_start();
         $_SESSION['uname'] = $uname;
